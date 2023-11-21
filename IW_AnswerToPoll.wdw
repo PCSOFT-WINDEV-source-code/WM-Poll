@@ -1,0 +1,324 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_AnswerToPoll
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_AnswerToPoll
+ identifier : 0x286f733a24ea949a
+ internal_properties : CAAAAAgAAABtZmIlhB2fk3bnxde6wRXLOshuB6lUE0dzCj9H/n/TJkj5MHFWI6zRUi1RuVZUPSPssjbB3khAxnTerDGEuUB2pAEVNrJOxCwJP//1IWl6m/IF+jtz7iQ0wkQ56wEzmq08vHFnxXlj03quRfTb2KMIDyjx+lIfhX3xPWw9tBoFDWAEd8ysSTvQxXZLfvMvKV5de4u8lRH4EHyTg9lX+VzDpsL0iurm7w5Iz0zB58hGa+E5ewO25TuPz4mEONR/OnlbP7PFCOLZ4bfHwbXVYlEdwwLrp5lS/aDTi7OLPDuu/9ANa1cctfbIdZckvjIiCjylCaBfnlog16QkKbAset0WIZWwMMnJPmwI5khuB0Wqfo7SGF0XhEtC6z0+xvVjhhw/SCHE9xPRHapIrhQebpe7ixsKjF2GdbJP6wmAIYcYsRrBdLVF7JycRBGzUlSL5/uMIjV7cRQeDphOsChD9ZenxhpytiQVpMns6wzzemoqMrmeLLUxkurvE0+yuELN09WwjNjbtzPJA+BNgdBDysq52BZWfh4yoGVNxg7ThW+3Qt52kJQ/oeE23BFsMdpC40YHI99auKorKA0qm+Ab74gTm+x70QnGmvNXAEkLxqLSX2pRuIX/oxdaVTA6ABLU5IW0Y7c0x0ydrETCY8HR5Uxuvk8LTsSumzFrhiFgtzKrOqoNdAbiEVAcujm8ilcDVbrLnDibZMTeBou6W86mFUi5mNRIbiVcJyt1RvCJ/YMTFu7i1TWy4yf5VmGOYGdisi7l+1lHGG4vUkofsW2/EUqkQsPhz30GcBdPezipUtTZfP2M+7YVTbmUObj01KUHxImBwnogukjXO7EmF27q0wl3q1Sdv8PCBMU=
+ properties :
+  width : 320
+  height : 420
+ controls :
+  -
+    name : IW_AnswerToPoll
+    identifier : 0x286f733a24eb949a
+    internal_properties : CAAAAAgAAAAFq53Va9aOQXzYmE2tHZdKrSd2hbwSZwJf9kXEn5VJCOk0XTj7bK4elJHzB0y/W/Q/zvq5O+wqo2lzinYyU2pmSGPd89siPyakYPxvzyATEFNrNCoD1sM8xDHNM3Lg0Mpjd9hDBIc4uBsnPZfL0WiQMvApO8mclvhMXGYrHO5fmNU2/lDNDNI0rdTPxYG2a5OcQPK6NYMBAgMeexmxnu7y5zePHPeN/0nQG8V0OYVuL5J9DBfYZ3JrFY+2jreia6mUncoxWq3vVWIyArHkSAdpVX7uS84n0EW75KaQKPnxsha/IukOdajLUHdI1clqZ2vyWJVkeEuf+qlCtEp1a1DnaLEOe/22hgF7wpWK+3H8K60sRhMEkmWeKZKFsulIij9YQPMf6NAyrITd8YQURoOkLbOlwHrWXnDxymIulkbTv8Hsak9Bjb5WhzavF1gepoKHml0qSQvIAWAzxa6FoWYz5nRHLEEB/DYGoqbgYKcUOahy8Pc=
+    properties :
+     width : 320
+     height : 420
+    controls :
+     -
+       name : StcQuestion
+       identifier : 0x286f733a24ed949a
+       internal_properties : CAAAAAgAAABlrQKuhS0FWTr6bE5rvpK4rxhDmwH3nuuJ98izZb+zPQyOVAndplzAXPHrQZ2zTADOhBAbZK7/GOzX5jnoAHCAlVxm90EEl37f9em3VSj9DT0goBXxuOarb0/QaBPX2W+w4nZl0IN7KZzCn0WlCvl2YWovcJF/aehkJOtRrqeSuCRCbrhQ5QKGdRzEFzvlo+sArPxWgo/KrLT/v64l11uY6FDC3zSVR/+Lg7es7UxF55scNSssXpSLd/UqvIUbhSPSKvG4aBO+K+RBcoILtT3I1j4zUA6L/5LS0mCq+Xsu6BjahDjFuUKW0YFhybjg4JnetlY3/HQqJnCRm/C2xTpOtR85p4IOHBC7iqRsNqpOn86pux8Q5P690nmEkKDwNBrwdA==
+       properties :
+        x : 13
+        y : 41
+        width : 294
+        height : 72
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_QUESTIONNUM
+       identifier : 0x286f733a24ee949a
+       internal_properties : CAAAAAgAAAAK+prSEKBd+TzNVQ/mfg/IwxPzKsljlaNZThZUBnW/yoIo3L3tVCEb0CbmkEZ0lSCIbIlUZmGT2uAgLI9ZYUyA+Fg98I0bVN128wEC1SN5moh9O1mxutgFSfb8LqaA+WE+ZWTdvYnL6f3Qi4qDHnHYuorodGACksjg/3piQXtzGeEVQGsVqty3V1CGZD/ZmqtxQVwZI7aF6oXKRi9I3BKT1lNycNtVk/0IY8m8BVoFnHO+Q8HKyOG5I75IDhaVFCcT6LcC6JiL/HpdgwUogigYbjkyYADIyI/Y5XgogMAMzuckGiX05mKO7OTQV+Gd4F34MrAhR1sPDqfYBsScwY8Y0bBPv5zk43/NFaPyBNjd/pSn9nH/B2tOpTSUd5X9ClFqhuhGg8xT8g==
+       properties :
+        x : 10
+        y : 10
+        width : 198
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_MAXANSWERS
+       identifier : 0x286f733a24ef949a
+       internal_properties : CAAAAAgAAABZRfArOXIApvIyQ1uuofVoSgdSmORYI/ioYDd6LCqEKQY6xDxv2GaB6l7OcG+/8W/n/0cYyEmYH0TunB5qDo/NDJ/Qnp3B2ITbWIGpRECEcetMh15p5aVN7f1ktkrGBkt2HLNgKweQr5lGaImDZpl9YIuLsvhsAub3S/MsVeQSaQfj5CFIPhoeOnwiQn8ynmEEurEUp6c15kqa4R6ql3xfkYiJBeIb29NJV9r1L6iOva+OcRRTOyFF4JbubaXgP/NAu7Db3YYvjZy7WhRCV0TlJ9FDF0l9F1kFXLA1EPWO3dbwuqCJmfl45qDQ+pYlaiuqC8bpV5bi78dA/f2P4Q7leQNxw/uxUqJ/3mWtwYhpBFAYRHMsutrb6t8d1HRZgnsXZ1bEGPFDZtV3ZCBA
+       properties :
+        x : 13
+        y : 137
+        width : 294
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : MZ_ChooseAnswers
+       identifier : 0x286f733a24f0949a
+       internal_properties : CAAAAAgAAACTlLOKey6JdSTOQqKaZo9yjASdMkuwryTnvAcNVRWWrmyPW0WrIJSVXJXPYbO/riu/C3ou6Ufvohd8W9LXFEZjz9ZDwjnjoSpwRc4SR1VYskkESmMgkFNnx9Wo9jtLa3zQIs5mhsDBkiwmw4BN1RDNkbHQRlhqObpXG3K9KK6H5aUSdEtgzPW+76Ci+tKfZst6RNZ2de1usfmen4kBVTh2M5jo6wCy/rGhURl/9z7KvMVYtv8idayYvfNcN5DOIdILURFXe7YldB7O0LcKoLNKEGtYK3mQkggNiLcddlXZT1aUYh4Tn/R+k4BOx+sdXDZBVt1WLiVpw2R+hPsGMIXOZrsteg8A5Lx2PpB/1mGd5yqdb99wsUjX49+yZlLuVtGjcbnNGjIdHtz88cpbUpe7Z+H59bi6wB0wreNA2HfZ5xflnRl4oAhKb6+kMoluAZ4U88zvnPPS8FE/IU05xmxGtrN3j1HsDJs5N1T1MOOqOH6Ge0Bb0V/RpdHSja7vAF+bZ6XuBJclXptoBOnssUuKICBEf3ceSvyG4yv0TUmhn5bludqF8OA03udHrJ7Ayhzk2M4TtNIfyDOGFr3NrTJzNOjhVURQUWbd7TN6ssApSMvxs5rI76l/OAiiMND+WzFfma/T4PJiMm8MDUwmxM3Rxa2l0O9ZZKqVatcEqqVqP22GbKQP7FK/kF/dHjGa8RmJRdYTojC5Vz/J0/AAx9tV1LKUPrmqkIjZmpI=
+       properties :
+        x : 11
+        y : 165
+        width : 298
+        height : 46
+       rows :
+        -
+          internal_properties : CAAAAAgAAAAQvhjCinhV8swiRoqQqJQvIsE3pJ97DVNrOcFjGFb3t5KRnZhri2P3TOIpr2vwLEQWfka8uQlEbIvyumEIDOmfO1zEOWrbyfYQqGNl/AuTgOoNnAfLdpJBr1Hgn4j4M27nBInsXfqOebxGu16c2FJGZvcL
+          controls :
+           -
+             name : STC_Answer
+             identifier : 0x286f733a24f2949a
+             internal_properties : CAAAAAgAAAAnEgFI73JdogimgDBss6geGQbt/URB8tu/CFW8y2HZ3SeKwNWsSI1IxHwjB+yWX9Tn9AkWalFeqqmIhuGXbvuDQ10l39Ww1JP1vzMWtmqvV4NuBp+6y4HNsdbyo2DDofL95jFEkBJcvV9dGFTZPn9nq3YKpFplWlYBXOFtDHc0uAMvczjSAa/a59SiN7coNptaQU9nQbRZN4idbVddJB1gk1R3qGa4mTi2gemoVZiHC4y34dJ3wf6hXzorbhNGWSe9XHujnUK/3PKeNEyJFvjYiWfHvxHYk9c82bp8Nj8Lcj06nHwnWPlOvvayFQU8b9tesUCW3NNaOFkIO4rt4fQxuDEWncaXGB2SZ1QbKrTHhHTE6TJOXUZps7vyIZwL
+             properties :
+              x : 37
+              y : 12
+              width : 248
+              height : 23
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : IMG_Checkmark
+             identifier : 0x286f733a24f3949a
+             internal_properties : CAAAAAgAAAAET4RmMrvwvU1iHH0K3QIMBkoAguDxz4xLiGoiXI1flYB+6RUl4eqd74VBfXPd7GsWy7BXAIFrVfNKpzgig9j7nBZaJtbGgfBpz4+0IyWZDV8whtVhz2vwCnnRBHvN81qVZIMZ9OYKO41woY2f4fUo8VaLiHgmaFWIqW0ny5FNai7NaPm9a/xk29wf4WGjt6Pj1tNtIAoO5TlnoZPWSzITSUSFk8KFpl2AFdeLPpwpbZD4KZEimD+ZcqeAcLoGye5Nrux6PMG7fOHfGU+JFhocYK3ULAFwl8iPJx3bxGcik5LXM2vMojvqGf+Z2G6jCzK76FWH3k8b0qn6PRHFDBVJlkbUXIbQ/HrlpZT/rBYw5tqGy5EwhsGbZmoU9ezCvj1J4gYAQD3ACHWn9LVIkALwoEi2Xiz/e0af6mxKWPScPovuOyp1pujSBMxtUL9Prf1yILCVkGDs3pacnqihpvRnoi63xRLh88+lLyYZoLkq4QNf7LUTouTyhTW+cBLZGk1CUBngnU5RE2ziCswsx+ACbLDsUVeIA9SRzfNDNcU41tDyQjbRFE1SGX7LuWE5zMsAsqbBl+z/NnOF5MEGpvt42tqyy5JUgfGW293LO1zSdSTAfB3180wV+zzofl5oxFzYiO9wHVMEAbDPbTClT5FbgBlE2hQciPqf3hRghXpDHaWOWdiKZFPkFnIlHB/ngHOGTzpdoL7YVzofEeorPkWXisGwio7FU5Hp3y1waaQfwZrig88VN3BoOTdBDF+9vI7EBS3LJVLMXe6wVtsOQO04jYt/BfdPUU/y4e22dNgC5zyoVpknl+j6r+IUwhJUtWcOjPUxVa85ICPIyNwLxw0PAArec8X/WRow9JSSXqekQtOTsMKuuWGQoeZLLfWTZVdSHbZreW5EjYuDHahh80mpNo80r/hsycbK7JWyeQLAnYlLKZu7GAE1nsRfS03h1Bt24n1lKmigPinzNcj4/SKs/iWujoCO48vAbA==
+             properties :
+              x : 10
+              y : 12
+              width : 22
+              height : 22
+             type : 8
+             code_elements :
+              type_code : 8
+              p_codes :
+               -
+                 type : 18
+                 enabled : false
+       type : 97
+       controls : []
+       code_elements :
+        type_code : 126
+        p_codes :
+         -
+           code : |1-
+            
+            IF TheQuestion:nMaxAnswers > 1 THEN
+            	MZ_ChooseAnswers[MZ_ChooseAnswers].IMG_Checkmark..Visible = NOT MZ_ChooseAnswers[MZ_ChooseAnswers].IMG_Checkmark..Visible
+            ELSE
+            	FOR i = 1 _TO_ MZ_ChooseAnswers..Occurrence
+            		MZ_ChooseAnswers[i].IMG_Checkmark..Visible = False
+            	END
+            	MZ_ChooseAnswers[MZ_ChooseAnswers].IMG_Checkmark..Visible = True
+            	
+            END
+            
+            SaveAnswers()
+           type : 33
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+     -
+       name : STC_NoName1
+       identifier : 0x286f733a24ec949a
+       internal_properties : CAAAAAgAAABZ0UNlGxhDfgcCQHcKD/ROINhqCiJPxZyxChrPso5Hyq/aRWIdG+RBagz/f5GZuG0qTh2nxnZ0GAx1UyO1Ri+8Xs/puGB1U7/tlVh6afK02qb0IilHVGZa0hOhTVlbxq8z/r7KDa1F+rxbv62DtdF5oV4oE2rQ3wFpzNICu7un8pTPOSkoFagJPgIocd8jnePmVDCs+BknOcQ+h7XBNK10xInxz2NsK8uiga1vO5ZptYE+ewyq3WhNJx5kKFLbh38wGa28VBt0X0mp5vl1rb/1s1XKQzFvKK4tZph5RGJkbBYd+Kwh8Sx31YHgs4suK/m4mc/5FrBQVkNI1J9rr9eMxI61QnrPaOvGsn0W
+       properties :
+        width : 320
+        height : 123
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         // Summary: <specify the action of the procedure>
+         // Syntax:
+         // IW_AnswerPoll (<gnPollOpeningMode> is int, <TheQuestion> is QuestionType, <gnQuestionNum> is int, <gnNbQuestionsier>, <nNbQuestions> is int)
+         //
+         // Parameters:
+         //	gnPollOpeningMode (integer): Corresponds to the opening mode (csView or csAnswer)
+         //	TheQuestion (QuestionType): Question to display
+         //	gnQuestionNum (integer): Number of the current question
+         //	gnNbQuestions (integer): Number of questions in the poll
+         // Return value:
+         // 	None
+         //
+         // Example:
+         // Indicate an example.
+         //
+         PROCEDURE IW_AnswerToPoll(gnOpeningModePoll is int, TheQuestion is QuestionType, gnQuestionNum is int, gnNbQuestions is int)
+         
+         UpdateInterface(TheQuestion, gnNbQuestions)
+ menu :
+  name : _Menu
+  identifier : 0x20c606b410306a9d
+  internal_properties : CAAAAAgAAAAK+u8oQsBgJDOtDcXreS5X5qaxJGYi3qCZAqt5dU+9ZeFHzKVNRA/luZC9EmpJR+zrkXzM7/G2JTPZmHvH5pNkYq5cxvZu/lXgxvCNEGKGwvydfTbFhqRnC6aof6fetrYhvQuEy+ikQtgX9oXn6LVWhdAtz7BUS7VUrf7b048N6zI2Xv1hc8mR7TDQ7yIIQDKIYIz8nnfwcymCK3wH29yuD5Rc739WP0tnNl+SHTar68RHChi0MTQNeYDGL99Rxl3UwzxNEg7tJv89iNqaGOQHa4WQ9TniG9OChc6CR+8LzyGJGNRtfj8fiQVWTQ==
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAGTaRQe5J5GhCpmXC06kR1Z9OPwAodVJzIJqzpVIasz7JVsF5E/pCkaC+WB03m0jviJwtxklOzyuIYZJz7oslK
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : UpdateInterface
+     procedure_id : 1760752672299390106
+     type_code : 14
+     code : |1+
+      // Summary: This procedure is used to update the interface of the Question plane
+      // Syntax:
+      //UpdateInterface ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE UpdateInterface(LOCAL stCurrentQuestion is QuestionType, LOCAL nNbQuestions is int)
+      
+      sAnswer is string
+      i is int = 1
+      
+      
+      
+      STC_QUESTIONNUM = StringBuild(<§$0004§>,stCurrentQuestion:nQuestionNum, nNbQuestions)
+      
+      // Update the caption of the question
+      StcQuestion = stCurrentQuestion:sCaption
+      
+      IF stCurrentQuestion:nMinAnswers = stCurrentQuestion:nMaxAnswers THEN
+      	IF stCurrentQuestion:nMaxAnswers > 1 THEN
+      		// Update the caption for the maximum number of answers
+      		STC_MAXANSWERS = StringBuild(<§$0005§>,stCurrentQuestion:nMaxAnswers)
+      	ELSE
+      		// Update the caption for the maximum number of answers
+      		STC_MAXANSWERS = StringBuild(<§$0009§>,stCurrentQuestion:nMaxAnswers)
+      	END
+      ELSE
+      	STC_MAXANSWERS = 	StringBuild(<§$0006§>,stCurrentQuestion:nMinAnswers,stCurrentQuestion:nMaxAnswers)
+      END
+      
+      
+      
+      // Update the values for the options of the check box
+      FOR EACH string sAnswer of stCurrentQuestion:sAnswerList SEPARATED BY CR
+      	nSubscript is int = mlzAddLine(MZ_ChooseAnswers)
+      	MZ_ChooseAnswers[nSubscript].STC_Answer = sAnswer
+      END
+      		
+     type : 458752
+   -
+     name : SaveAnswers
+     procedure_id : 1760752672299455642
+     type_code : 14
+     code : |1-
+      // Summary: Save in memory, in an array, the answers to the poll, 
+      //in order to save them all at once once all the answers to the poll have been validated
+      // Syntax:
+      // SaveAnswers ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE SaveAnswers()
+      
+      sAnswer is string
+      bChosen is boolean
+      
+      FOR i = 1 _TO_ MZ_ChooseAnswers..Occurrence
+      	bChosen = MZ_ChooseAnswers[i].IMG_Checkmark..Visible
+      	
+      	// Save in the array
+      	TheQuestion:tSelectedAnswers[i] = bChosen
+      	
+      	IF bChosen = True THEN 
+      		// Update the answer
+      		sAnswer += [TAB] + MZ_ChooseAnswers[i].STC_Answer
+      	END
+      END
+      
+      
+      
+      // Update the array
+      TheQuestion:sAnswer = sAnswer
+      
+      IF MyWindow..Name = "WIN_PollForm" THEN
+      	 WIN_PollForm.garrQuestions[gnQuestionNum] = TheQuestion
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x10c606b4006c6a9d
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : The maximum number of possible answers has been reached
+     index : 0
+   -
+     text :
+      en-GB : "No enough answers have been selected. Minimum number required: %1"
+     index : 1
+   -
+     text :
+      en-GB : This is the first question
+     index : 2
+   -
+     text :
+      en-GB : This is the last question
+     index : 3
+   -
+     text :
+      en-GB : "Question %1/%2: "
+     index : 4
+   -
+     text :
+      en-GB : "%1 mandatory answers"
+     index : 5
+   -
+     text :
+      en-GB : "%1 to %2 possible answers"
+     index : 6
+   -
+     text :
+      en-GB : "Unable to add the answer to question #%1"
+     index : 7
+   -
+     text :
+      en-GB : Backup completed
+     index : 8
+   -
+     text :
+      en-GB : "%1 mandatory answer"
+     index : 9
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

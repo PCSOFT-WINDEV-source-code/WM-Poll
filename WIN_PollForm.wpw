@@ -1,0 +1,351 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_PollForm
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_PollForm
+ identifier : 0x286f732e223a64cf
+ internal_properties : CAAAAAgAAAD/mKfRmX1rkMUhBPfCn0I2CAgwIgkzgmxVXpX0OFarRZg93Bub/4I0zGxmzJ+Xx5GnaWPdwAsptS2jvvRzIqFgao3EGM7dLFyshAwpHfIzMe+VsFebXBy8V5mcBovdz7dnyWnAjJkrcHAevFVsWM74MmX3l70DcPEV1RIOTTjomCjMDOEHdEVQarMZceE8o1E7wdhAfVadYcM2XPpuFzXFAgbGZQnsvxOk6Np6qqxRxD3s0uCUiL6tbESlGbe6Q/mLM86mqBBiV3+j/CFv7rYrXhiaZBY5yf7FNVgr0w5aAI2hMSOcmGstcH58Q3PzsNqDdkcoBVZvqBYnUaKwOJC8niTh0hcfgaZu/0avRn1ob/kifjYZtPS+O+8xW9M7u8mIKiF1iVFdj46dw9eeS7DJPIz1+tnNqKuDCATioYN6ng+VbOWDo4JNzcOZDEKaGZhvLQD+3VlYotmFubcxnW53RTMXZX+yv2MkxfE7oWc4AnDjhhWhfQMNbDXNHEUVsBHULWNlaLUh29hs03QOqBjRSmJlzGyjEnU+SpnPIto2nO/09v5uvsrvaGVqotWQpz0/Nh/vhx4ayswjNasry+hlcf+cCrNBXnDshUSS+m0+9NwvG5l4RL3NlG2pTQCEPdmICRVFap5ofRKQpKI5A7T67B4Q+kaxaZnKFhclMRk8CdK0o36gjX1/vRwSt50CT7ZO9q9JJaUsOh31
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : IWC_BuildPoll
+    identifier : 0x286f732e223d64cf
+    internal_properties : CAAAAAgAAADGl3Vdn2j+WLA4jKSPkxa6r+9EO5oBKcgAE2q1GcEV1+zJwUySJqVxWjvBN5Q8iFcF+kdVh+Yxa8fgWt8SpwuldIJy+DmhQUCCySJx1jqT3CBG8Ik5oYWMPGPb6HuN2flE/uZJhof2yQZLTM6HBBcoxMrktsCVM4ARh6cf56k4yH+CbU6OMRrdliDQtBTDiVGWbkSiebjdp3qWYrjmOWaCaMUfDSAayWiVyO0AWaB2i4Xga+bWg73HOnDLXJ4xl/zYSmSmuhdB1JzLhc4Qc3nXp56ltb2rufx3VFDD1KiOikPYmkUmNdCTNhMh6p7LnZEZIkSzmVidliL1zyUHQG4ELI9QV5w92wpNTkGyJhfQOX0RZJJBBzXZ0Fb/wJkXPsLjWC1krkII3waPbLTUZVx9dhtFWWnSzHjN8y1n1JoD8IbFdt+MvjC8wAgPATdFcAsevdNv7QkF/LhMYjx9FIapGEi+ZJcy2bzG8XSVO/ra9G7DAx7jaQd/tFwWYnmdm3P8GXjwYape5xngVD9pF+xEXTN+KXmz7y4=
+    properties :
+     width : 320
+     height : 407
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAA/hBMwGGdRmGFfubl3/w+RDb2NTqhxdjNg5GtPKF4JaDRFbo1wnONBKV6ZxmVNz7TJmJEuAyMVZBd2nRHkIZN2DZ6i4Q3pwyU01Qoow5bgox2NWqsV2YoG2XLHyAEO9+uajK5VIHP2gkT7E4bL4D23kV79f1kWRQSzXLOSaYr/XeFyR4eiGJsgeNgiC2p9FkIONXycCA2zmNjAmTXvs5o9ShsSkPTlshVTHjYXv9Pz2yjc2+RDEG4OF3PMOHLbbybDOr6kSo82oRx3YRedKYjnOUubIG3KDJmvevBpSUhpWTxBfgKxga10uojw9vRrnwi+NjuuNgi1mxtZj2Xd/liZCl2itQ==
+        code : |1-
+         sNameIW is string = IWC_BuildPoll..SourceWindow
+         IF {sNameIW + ".gnQuestionNum", indVariable }  = {sNameIW + ".gnNbQuestions" , indVariable} THEN
+         	OPT_OK..Visible = True
+         ELSE
+         	OPT_OK..Visible = False
+         END
+        type : 33
+      -
+        code : |1-
+         
+        type : 173
+      -
+        code : |1-
+         
+        type : 174
+      -
+        type : 234
+  -
+    name : SC_Explanations
+    identifier : 0x286f732e223e64df
+    internal_properties : CAAAAAgAAAASjX7cx2Id/QzUY746erWgUILWiagXTztXZjPf4AmLUi6GXXMVEqyhKcx9XsKEeoTHeZ4aLcXj71a5uVNlBGJSNDjWnwaLZXsfl0VqOlH1CN/TESgKx6VZQPNZjweE4u6S6rwbwz40U5RMsFh+MjhhRQwPLAyO6oLaWDB/9sKkHRx8QTqWqwlj3s4nqVlZqwZom8DblY4NdkKydmw8b7b3YviGriu6aHWT6u5vBI9JroCg/nYeKmsFwcfYlhcHEMeWcQ+AuUFKwjVlDNW5Ow7EfUFKVSCLNwDgNf3xzm9my5ijz30Cqi3zEDTTBvqC4p1KOp47Tu/Qu20Tdw5UH24BXEoivKp4VAAj82cI8N4FvX6X508JXRssheUbUYuqWHr/N1TXswENCnHAlx+NJtsyYuYSQuTz+ly9m/5iafeJ2D79Fa5PkzDBWe0Z3Hv93gtTTAe3XXpN+HK2xdo7LpoYcqWdDliQCgh9rFfZ5b0/Dpi3PHJFJguB1unEfxU/Pc7OLqMHK6TjlQDpvgFNhcnyWGrODqHmNMIZSA+pVjoa0ZfVO63yGvxsoxZjRbPZV2euSyeZlYPcCzSxaazhGYbS2IAHjETsqxJG8ITdnGS4oQ47d/NVbLcj0EIDFV04d4ruUqGRFaDFiSxfiiF+ApNixgW/+uMgefL6loIhrKfN5V/Ylk4Yxxk3LAfXhxVCKCl5p3GBYYvfmYL0puyh2Wt0hAMVSd0N40msg2Sx93i0Uj7VAYO4IlcuLcFTPIW7o1VqcqYUQ2tSaXaH8ej97caRk+0Sr9p4SiHW/q9WURdd
+    properties :
+     x : 18
+     y : 72
+     width : 284
+     height : 241
+    controls :
+     -
+       name : STC_Navigate_in_the_questions
+       identifier : 0x286f732e223f64df
+       internal_properties : CAAAAAgAAAD4E7RTFrfUe779D3zo2WxUBiNTcK+2PaeuFsn0eTW8nHBuQ7Us6E2lqCdXIqHI6mrq3pu8L/MtyY3/ICtgm3bLRNPSmhtE4ZyMDu/CLnR/c/3/ig5OGnxg7Y41j5CFjn1ugnOkq4M1xhiohJ5LE5y7IqSPA5KX0axDH4yPFTjB7uUguoMDPEUoRWwRFvYmgi+BOSHIrF1pTEb0kPzHyjG7PuuQ1hxOFNk1fYaefMaR7JGqvOmPQU09RtOkzqSIaYpZgTvP1hWzRj/JViMmuHO0eTQMT3BkUHsrrVEVkaiCnGMoY6DGhXO6uCwUTWbVHrBDjwTT9qBIRQ5xJupNqLA25venPqAUk7DwpJ5qbzpIIChexvZklgoBnBcCztLvz/JBxPkFPFGom2qz6uFcMjWJaDyc33sbtp3QzlkomKEh5xYn7Yytt7hrNsIae+VO/Q2Ttfmo9wVUxq4vi8UsFw267as0sN/Ce4osLXjzpdOSgJvbqvDqiJqj5lh9mgnbme18
+       properties :
+        x : 13
+        width : 256
+        height : 239
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : BTN_Close
+       identifier : 0x286f732e224064df
+       internal_properties : CAAAAAgAAADUkMJzAXVmplVbb62rNinjtZjmhTScJUBpzlJhjXxGIMhjBzFoEP8/Gd2tzjdIsauNL2dWxJ3o6lDJx4L+IH1S4Lq9j5tuJyJXHk9lHI6rNbCeL4+3zD/z3SoC1cWcqcMC5HJyK1NRYC/+1cXjlEKZz190YmTEhM+2ZrUk4IcQsUVtLq9yJr+hAE2ScH+sEF/mAgI68D9uP9ECi4v7NksGwHBLaJskKnXiheoXh9Ig3kacIqIShCS6VTlz3h9xt6Gf8ZJOCHThuyc6mbUGZAU9lwLTuTW4f+c8qOQ5G1I4JD1Dy34HQCwNNRpzM7YMbg328VHJDfTLp06LaPy/FmpUlXuEF/AvtW87HHZWOnmXXQe4MAw/bPMZmIkpd9GBNowNhYn8LshCQgHoytkUafUVzWpJ0+Nu1//YYbhqIg5LIjb05UskZq6cc7MHzhYxV4U8wmUpeAbtGZvFRz9Y0BWyk1AqKu6nACKxqck9tKjhigBAh4cpaK9EfahkIQfjtM3NaYif0n0MQ7yjjxXY9l9L/iYIoMxN6ArixkuMRQ3rOVNvMguFdNcPLsW35+OZMHHH+9Qfj6egDQp4CZpJRbBtpbdyv4ZWLT59gKBNovT6ao4zd+lo0TXAoKg6kUj3eZfjHbLwDcYrTgSwxtkal0rv/KJa2KBedduEDLi92rg+rQRTcHGfxXEW42LfMdTRGw==
+       properties :
+        x : 213
+        width : 69
+        height : 40
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            SC_Explanations..Visible = False
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 40
+    code_elements :
+     type_code : 34
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x286f732e224364df
+  internal_properties : CAAAAAgAAACkw+4QdLvat+dvkmvZ+yL6PTyjS9EfqQsfl+8tQJVXcg/wnRlRdqzYF1o9XgSqoqSqNSw4CEFWgGlutyJv/x7xtXjO8vJqJbOIWs8ZSUdHHcw/vymVQmMUIm574p5wNYhpRxJ2HJVuaja/Jb+vYw0z1czcizr7OaSWVi3atZTZWP4iz3d8L5nekiTzu+uMKVDhqSg8rnxTz9iMWIj0rSSgsDfvO9rebhibF2clOuNHa9k0SoM23hMxgN3/NUHj3ektNThymfgS3LvuLHTHfVohFCthQWuwOPKCfp2w4vsorneasxuP2cVUTNktt5UxHQAMhqAPGzfg8mAz8uoFEsws3EIA6r/fM5hJOi1fyLFWMPWYcizUzU7MFipS9d5R2enEtODhg2cD+ecQ4C3tejMSv0sfZKvjIiJq+XeMhf2CVMeL2ePV6kKk1xLZziAWFpjBPNI17XOjPo+Mhqh/o1gn+oinXA==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1+
+       Close()
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x286f732e224164df
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x286f732e224264df
+     internal_properties : CAAAAAgAAADgtfHDgdyRoGnL+Tz5WmJa0lLFiHulOsS/yMTsntG0y4d+lF4ohUiMB+kFAmJDvV9QLoRuaQKYhkrtAd/6Y11fXfEXcf6RbGVzbHECUaQd8oNXqUgvpvGFjwiObOHlWHdsXpPyCGcvkA/XxNssMERTMl2csMJWyNU00ToviQn6ccNZkwOgXpOXOcOXEL6q0y3exHCemGxHaBXQ30sIUgnK+quuLwi40yzMkQEpBTnIqg2Uvuk9GQJLk7ovWyZ4WBgXehIno8IvwSdb5qWtOuFUtJCxeoa0TWkX2auRR0d+vPc9UNjHh25LHHq8Jw==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          // Check the answers
+          IF CheckAnswers() = True THEN
+          	
+          	// All the questions have been answered, save
+          	SavePolls()
+          	
+          	HReadSeekFirst(Poll,PollID,gnPollID)
+          	IF HFound(Poll) THEN
+          		Poll.NbAnswers = Poll.NbAnswers+1
+          		HModify(Poll)
+          		gbModifiedPoll = True
+          	END
+          	
+          	Close()
+          	
+          ELSE
+          	
+          	ToastDisplay(StringBuild("Please answer question #%1", gnQuestionNumError) + CR + "This answer is mandatory",toastLong)
+          			
+          	// Go back to the question in error
+          	IWListPosition(IWC_BuildPoll, gnQuestionNumError)
+          	
+          END
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAvENED3tKoYFKpf9+WWvq9O63U4/8J0aVCPDyBk9b5o012J6VKPPtfXUH2xeDhe/bIVJizkIJFQZ1EbmM2eX+kObt4/OtmWu6eAipI0X6KjZM8BD33dP1gdeZu
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE WIN_PollForm(gnPollID is 8-byte int, gnMode is int = csAnswer)
+      
+      IF GetUse() = 1 THEN
+      	SC_Explanations..Visible = True
+      	SetUse(2)
+      ELSE
+      	SC_Explanations..Visible = False
+      END
+      
+      garrQuestions 			is array dynamic of QuestionType	// Array containing all the questions
+      gnCurrentQuestionNum 	is int
+      gnQuestionNumError 	is int								// Number of the question for which an answer is missing
+      
+      HReadSeekFirst(Poll,PollID,gnPollID)
+      IF HFound(Poll) THEN
+      	garrQuestions = FillArrayQuestions(gnPollID, Poll.PollName)
+      END
+      
+      FOR i = 1 _TO_ garrQuestions..Occurrence
+      	IWListAdd(IWC_BuildPoll,IW_AnswerToPoll, gnMode, garrQuestions[i], i, garrQuestions..Occurrence)
+      END
+      
+      //If there is a single question, display the "OK" option directly to validate the answer to the poll
+      //otherwise, wait for the last question
+      IF garrQuestions..Occurrence  = 1 THEN
+      	OPT_OK..Visible = True
+      ELSE
+      	OPT_OK..Visible = False
+      END
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CheckAnswers
+     procedure_id : 1760752620757869775
+     type_code : 14
+     code : |1+
+      // Summary: Checks the validity of the answers, especially whether all the questions have an answer
+      // Syntax:
+      //[ <Result> = ] CheckAnswers ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the answers are valid, False otherwise
+      
+      PROCEDURE CheckAnswers()
+      
+      nSubscript is int = 1
+      
+      bResult is boolean = True
+      
+      FOR ALL ELEMENT AQuestion of garrQuestions
+      	
+      	// if the answer is "" and if an answer is expected for this question => error
+      	IF AQuestion:sAnswer = "" THEN
+      		// Check whether the minimum number of answers differs from 0
+      		IF AQuestion:nMinAnswers <> 0 THEN
+      			bResult = False
+      			BREAK	
+      		END
+      	END
+      	nSubscript++
+      	
+      END
+      
+      gnQuestionNumError = nSubscript
+      
+      RESULT bResult
+     type : 458752
+   -
+     name : SavePolls
+     procedure_id : 1760752620757935311
+     type_code : 14
+     code : |1+
+      // Summary: Save the answers to the poll from the array of answers
+      // Syntax:
+      // SavePolls ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE SavePolls()
+      
+      FOR ALL ELEMENT AQuestion of garrQuestions
+      	
+      	Answers.PollID = AQuestion:nPollID
+      	Answers.QuestionID = AQuestion:nQuestionID
+      	Answers.Answer = AQuestion:sAnswer
+      	
+      	IF NOT HAdd(Answers) THEN
+      		Error(StringBuild(<§$0003§>,AQuestion:nQuestionNum))
+      	END
+      	
+      END
+      
+      
+      
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x134e465301ad7dd6
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : This is the first question
+     index : 0
+   -
+     text :
+      en-GB : This is the last question
+     index : 1
+   -
+     text :
+      en-GB : "No enough answers have been selected. Minimum number required: %1"
+     index : 2
+   -
+     text :
+      en-GB : "Unable to add the answer to question #%1"
+     index : 3
+   -
+     text :
+      en-GB : Backup completed
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

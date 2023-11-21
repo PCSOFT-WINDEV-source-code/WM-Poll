@@ -1,0 +1,250 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_POPUP_SAVE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_POPUP_SAVE
+ identifier : 0x286f733322f4779c
+ internal_properties : CAAAAAgAAABRIN1l85WB5GTOMvV4wRTGHrs0neJPCA69mapHJnybJbG8vdtk3NomyD7OLSFJlgzQf9aX9WIylBTk6zak9/NMc2M1GaqSs4/jurXu8IDVrhDnz0wtKoka0P6HpNDJ5vh9Y9+V0FIDSAZTOGkR45x1k9hJ5mNY3HPh+M/C4YMlfjwATZAnjvlTAg2bIXlsdVINbAn0dC136qrwguVj3oFW8ANOPDUYBWAEj6MPbih76yG/QF+5QvKbBaRvB4RhhOA0zwx2tKi90M40yY9DiP4JyJOmCK8cBEi12l6+yMEx67/Xbfcmp9OvAKv8L2FCydxXRJ/66ARat5MEGmyNZwjaCpBdMoBn3D4BUTUTJviqc0MbWa7btEpu+20N5K9zf19+7Hlgpx3DlpQwz57phJFNHMRWdnvvV6HWGKWuNgjiOg92xsyhLYxf/XOcUZMfjM5j1aJ3XMPtr70eH0wejTdjs18YSXa7Gq0F5MuEleiq930jHdSNb7Ws4x6JlD802QVEnP3/RqzqhR+5CKq1V/irzlQ3VkmtmwPgP4h1mnmiXAQ3GCL3dR0ErWu2G7Q7QC7DiBn7V74aXBA8NBfX2EsYrFIUQqSrtUYGf1eynRFs2QAmds3E0PIs8wJPJi6NwhXcZpNj+Ye7Dj8HoMIxUSswnFSFZO82fgAsVtCmpTJn9bxitQBt8S3WbPIF3073kyZnbYhNu+SEU3u+MZXte7qoE9RyicrKUdOix0G5FRnuPtM=
+ properties :
+  width : 381
+  height : 270
+ controls :
+  -
+    name : BTN_CANCEL_BACKUP
+    identifier : 0x286f733322f5779c
+    internal_properties : CAAAAAgAAAC2E+9dwm04nDDHIaULbT1UtMFfRde7e9X+zmV1Ece0gZgbB4JzG5hIN3KME9Pj4k+K5lEv3jcNqZjLxgihBb2NevUvMaANNnpVK36oFX1aUzmn01K5s5/WOfm/lePHHYg6pzJD+vzhyUQBiADzgAcyvsBkfc+p81pjTe40ezBqj9dSIq5Hckj7cr+sIZmdArMrZQns2VKx9ZDR7TsdXj1sHHi8pyzLt4U573YEEHYV8adVVPjxiY5jUfv62A+cFnVCgEkqc8gaVlcdxJaUlGOVJHWpbCeBz4ON1BM3wN7NU4z8KtqYD1e7EFT/x0FP+FTX9uppoT2/SpF6k++oUZdcQaC7uT5RrtZ7syeqqCGobp+P4jb7hTj9WspBKcqAnTKErTIZ8ev1ObgTlQ2oZDj9PD8EgLGV031FydNbCu36t5uCJJVuu1hLvZiN3cSbNtfHJNL/ZxegKQseUNUcKvfieV/OgiwgGbrcX1s4dvhUCzMTLb+L9SphYBHHxaH12ENmJo9F7Wtdw95mipZLArCd4Hj5gSxOMcfyWRZVz5N46FoC8WeGpYIbiTBwl7qjIrS2t15h/n4jQC6ALIRg9u7VQmdtSlV5Yfxuf0INccYV4nMk1RBgHDP77/DGQrSv4zZEwI5ZfDKeulwDGdY0z6Yg2zLqkjPGUHfVtnLSTzyhsg==
+    properties :
+     x : 193
+     y : 204
+     width : 150
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_VALIDATE_BACKUP
+    identifier : 0x286f733322f6779c
+    internal_properties : CAAAAAgAAACswRDZDm3MnC2NnWRRRDNuHPBwhaIcXVv4LrtsCQH0aCyDuW3hmdr/FXbF5NWYQfiPjIcCtILecBZeuALtUaABvZ2pfwrB05NeInf+uOTcxBBjOSf9lzTaSM3Eyr5DR1WmiN6xQyEPw10QUAqwcA5cORHUkE+0X5dqn259+/ae4VSfcG+UgBkPQeyboEfr+7XDgT058NPUnyeEd51FA2UTOMhJXhql7Y3zimOrJiXmq1VKgvCQwF1aIlr7kzrGJD2fNra++NsiCcFEVJ/RJ9+UBalHDDQXfpKJHpi1mIRaPECuwkvfAeeSk57wXBFAbDbYHAPM01SW99LH3NnkrpdP/8R1r4xyFI4KR8JzHC0G9SvcuAUknmpxYGp4XOzSYup8cr8KlcrYbvY+5TCsVOFs72zTaKGYT9Mf+FcTnkL/GsTLZZRnhWSyNqC0vMiEmhiBe9QynUNxSXpXOW6r798+jpeI8lFl5P68YPRSU9+Y3e7qryEaPJ9CUBKikCejW9LjXqfL+LXcFyQoDUako2meyAfkT9HycvwZ1gG0fS96dp9HaEQO9881/sy/hXWPhmIkPy33sNZNuHkV97X8pdBVJFap5/Vmqybk8DWUyVw9COcDnqHGoc8uTmZYO/L+inH1o66Wg6eMW75xnC4krkpEyvbqmu8NEdCF31tKqffAZFkkcd/Zi1V281BOuumZ0w==
+    properties :
+     x : 37
+     y : 204
+     width : 150
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //************** Check the input
+         
+         // Checks whether the name is not empty
+         IF EDT_PollName = "" THEN
+         	Error("Specify a name")
+         	SetFocus(EDT_PollName)
+         	RETURN
+         END
+         
+         // Checks whether the name is already used
+         HReadSeekFirst(Poll,PollName, EDT_PollName)
+         IF HFound(Poll) THEN
+         	Error("This name is already used")
+         	SetFocus(EDT_PollName)
+         	RETURN
+         END
+         
+         //Save the poll in the database
+         HReset(Poll)
+         Poll.CreatedOn	 	= Today
+         Poll.CreatedBy	= EDT_Author
+         Poll.PollName			= EDT_PollName
+         HAdd(Poll)
+         gbModifiedPoll = True
+         
+         MyWindow..ReturnedValue = Poll.PollID
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Author
+    identifier : 0x286f733322f7779c
+    internal_properties : CAAAAAgAAABTc/Bw64viksCj+gUeqsX73lzAVuZltjBkX4iMiGscnlFf4uMxD/5o+E5rt/eD7/AzStSXv5m22TOZD6siQziazBdVW3G5+Kk/D9bL6Ps7oBE1QiDNlrVP4uRER/wVrZ1e7hT7QfoIu3mNbINSzfHW21VMc70ECPHcSUqY/k7MC169pzMqRQ1T7Mu/FCdyEAnWQjKGh3uD45RbCOJrq/c/3XaukbXn22PJ8hObOmNsNji4+aZp0N4mwHb2zjYOqvLDCdjaiIvW4X0071p9gBnlzaSfp1qJv9TaFoGgRsKJRK3T3YCEh8WAenpa01eNtplyj6WHU40+LH8HE3Nwip95Y7AEsSDmzpBldFW2104YlSlO5HjV8bJzuC+1QZxGxKIA49+kP2qfq8belPuWPCLRQx9uQ9KsBlS9wjgxFjU0kNvOu7N8sNoqJr0pm2f2QYmoNl9xT+8mg3p2OX6b4QIOVLz72SF3ItpuS7BULBj7GFevSqXEeJ0e3u2DJqCpQRb1UpQMJqj8rC4AFn+FgpeXe0GwPz+MqDeTys3GmPddMqid3UY/+VbbxbdPKm/nH+rBhqHrlDurJtNRcq0KWGEBL/+WKwrpzHs2a24dnKvMtMZeUqxbfnNdQexhOG2pxBOTQJii/USQHHWREJxEWKrXnNXsQK2NUykqNJKdMcer+HL2TLc5ogaFsntOyQodZpyjF5o5KR7MO+kboD7B1KWwoSIvIfpDY3ouVgZgU809g9SyNni8sMifmnsFqYs5mJvMjRz773eqzCW6N5A5u7BPaKmPOzIBWtQ/iTERjnhieZr+ISq2Dde7bfVAIN3Us2ZR53ZrMXBK68RkI14XaT4AdUHiOpmgeh+Rv1M9hLd7TdlfN1mLUuCa2EgfLtbrCQTUXB1W4iWkzYcHVYELGETXrHCvFLTrdLHXzgzzuNM8uqM7BVFewfjvwB15iBVkVGrPv/dr4SFKrFrHDFYeZHQzoRxpGE/Phc8wo1qquz8qtsyGt4nfptBW5iHp77hgS4z7CISpQARj0KHc6eRtPoQ=
+    properties :
+     x : 25
+     y : 133
+     width : 331
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAACjlbrhPcsXBk/cb+qEz6ApQ53c7MiNc3tfUlNguKUPnyHMDrgDoDG9eDMTpKiGDV7X+ooAIHTaHOYlkEX4eAZc1Slcgx1UcDAMlkqk7rqAErOBYHsS0/6fKHA1TK9J/yx97c9Zeqy2CszuH0Q=
+        code : |1+
+         
+         //// Checks whether the name is already used
+         //HReadSeekFirst(Note, Nom, EDT_NOTE_NAME)
+         //IF HFound(Note) THEN
+         //	STC_ALREADY_USED..Visible = True
+         //else
+         //	STC_ALREADY_USED..Visible = False
+         //END
+        type : 17
+  -
+    name : STC_ALREADY_USED
+    identifier : 0x286f733322f8779c
+    internal_properties : CAAAAAgAAADLG7LG9+W7vl/QhzKyEFANc5Cz3Ewf8Vg1wcQHGeWqRsGrXsED0+KCmtkI1XfFktOVhF/pIKq74Qv2aqP/ia78buVOd5lUHvRG3KfBsNV02oZLbkSy3DrxE1ARic8/fahka8VPAyvqmO3sS2HOLvNjyVKrucgyFcucZOumaXtEqbt0BIDF0RsoJwEqDqqSltn3lp2b3uh1Kxkkct5lUzW6w6KxHP5WVIAA3vjwb3DKqM8wVd8qBo/nAQTr1XUrrhhohllc1vJ6Ug8smN1PsX+Db8L2mdvSxC3T4M0bkPQHTh6IFOQ0iexTeCwQjh99QKdOJPcXgYRcKAvsOXRWzTM+hd5uXt2Pyej7ej08CGUxJoKLiMZKc5U2hPobSVPFoUxHOxsPTvjzaUM=
+    properties :
+     x : 90
+     y : 102
+     width : 268
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_PollName
+    identifier : 0x286f733322f9779c
+    internal_properties : CAAAAAgAAABMKDtuHuoQJqY0IGi+XsGoY0wniHiMQz9Kpuali8PJyiwgLNCYTROSENRgwi8qepjHXA1gGWKEf5+s6mjlkP8341l5YCLDy7D2ZrSQ/kF8r5P5SS/O1suoIPxS6u4Dd2/8VjVmNko9LUCZRtiLi4gAKQp+P/1B2jQGPjdQGgXHFGWZ12i38R37ZYRMYH2lgdl4QsW0BCPO4xDLMOmbIXRXN+jncpMMRVDBVJfkxAV8GTkrgUHNnQLVLunKg5k9/UPNU6MTA+PkFdSr9wJfpyom3jnQQ/jmwmEuxuY2U3fp3uSWCeEBNUWKhVtdwuNa6+Wqja5Ah69IzNlVP4SYfUI2NWkTAimbeco/OCI/p1wpdId+3ZgxgNt/8z8g8oqfgPmamh2pQOvUfluxrhAUC+jIyVkD+LxwXRX3Xb5vcAhUtR/LrDDHSSwCvE++UNwhu+VAxiQXoMuNMbH1Kv8TrA5bSzQ3E2Rpp+ciNII8niNmWL1KWGbWkfeiOAefwQNCQTk+kalKLRQkj8kbVeEMNOi4NqlSSid8SYry8choc9lQawfNoyV1aRUAYhRAGjRnnr3WILnW0iHYJyxum8th2Oae1oFSbKAroSKtDjW9p78dPSVc6pmlzDDixuWOIKKDoxbI2FLV2QoL/3QeOURnbOuapeNstXsRYsKni9XjGin6rS2uEmxhnGeAnRaV/b1fVYtkMwTUezAp6oQYGRiCPA4bfuTv5EQb9uub5wvw1rEWIinYpruaPgMyTSoIx8JZhdybLX52J1svydJ71GJkpVvg/yURZBgD64P68gYvFzYJtr1EcYdUVdQu5JJ5zvi+uFcUV1iuDWrdKnvNEFAMaT0vrpl4P6f0S6x+VlaPMQ9mTIov8azv6ikviYuuAAGxgOWbNrm1ZJGFmIYmqNOiRheuO7qbvenXhv6mKco7z5OJJHxO+pH2jBrluTo2Szm3fVMYAtocBJhdvsT6MjTnm3wXuO1cJcQeg38mFma3kj9aOUOzdMfoR/d0zwTlKcpNMDAsKcEFGYAOS0rOny1V
+    properties :
+     x : 25
+     y : 56
+     width : 331
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         
+         // Checks whether the name is already used
+         HReadSeekFirst(Poll, PollName, EDT_PollName)
+         IF HFound(Poll) THEN
+         	STC_ALREADY_USED..Visible = True
+         ELSE
+         	STC_ALREADY_USED..Visible = False
+         END
+        type : 17
+  -
+    name : STC_New_poll
+    identifier : 0x286f733322fa779c
+    internal_properties : CAAAAAgAAABqb9CcbBAjVJAQ8NoRru/LuMmYdDYQ4jIZbsScaOFM5M+JWpKXy3tj/P8ch/faGxqBOgZHlAIITBsvZqIvuRJHCgjMRQkQV2KKwfBJSW+PFOwoyEEZ8NSpQ0WSNbsSufGNHMwlWfjXkort5SuQSRSiGi1dJglp9HWeGuTCrhLnoBmMQCEFWLDuohsq2w4UCkagtBPPWGJo8dWGkvwxDgQozcFozGKQ/BKRe1ajcpt+/Q0TT2VyNx85KKzyPzL0cj5elu3WK2RrE7ntwgduRDRCPmV7x2InXDRG2fMvigrdOkWqpdmjLhuQwSH76dl5xSsAx9gzJpQBs6HZKtPQchFdT9XksGCcAe+rD08nWBX+m6rLFCADxt24sqKjaztXjQ==
+    properties :
+     x : 19
+     y : 10
+     width : 343
+     height : 33
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x20bcb97c1f36ad92
+  internal_properties : CAAAAAgAAAAK+u8oQsBgJDOtDcXreS5X5qaxJGYi3qCZAqt5dU+9ZeFHzKVNRA/luZC9EmpJR+zrkXzM7/G2JTPZmHvH5pNkYq5cxvZu/lXgxvCNEGKGwvydfTbFhqRnC6aof6fetrYhvQuEy+ikQtgX9oXn6LVWhdAtz7BUS7VUrf7b048N6zI2Xv1hc8mR7TDQ7yIIQDKIYIz8nnfwcymCK3wH29yuD5Rc739WP0tnNl+SHTar68RHChi0MTQNeYDGL99Rxl3UwzxNEg7tJv89iNqaGOQHa4WQ9TniG9OChc6CR+8LzyGJGNRtfj8fiQVWTQ==
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACThDVXgnZMxJ4d08OqTi5BtzlQb3uFnWGG+GieD8ZbNyNSA8cEBkfpQ7EcL9QOXKVRd000KadAMOwrF6THzOL47fc8uC/a1moajqbUpYqGie+Q0OFT0FE0GVrS
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_SansNom
+resources :
+ string_res :
+  identifier : 0x10bcb97c0028ad83
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : "Question # %1"
+     index : 0
+   -
+     text :
+      en-GB : Enter the caption of the question
+     index : 1
+   -
+     text :
+      en-GB : No possible answer was entered
+     index : 2
+   -
+     text :
+      en-GB : The maximum number of answers is less than the minimum number of answers!
+     index : 3
+   -
+     text :
+      en-GB : The minimum number of answers is equal to %1 while only %2 possible answers are proposed
+     index : 4
+   -
+     text :
+      en-GB : The maximum number of answers is equal to %1 while only %2 possible answers are proposed
+     index : 5
+   -
+     text :
+      en-GB : This is the first question
+     index : 6
+   -
+     text :
+      en-GB : This is the last question
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

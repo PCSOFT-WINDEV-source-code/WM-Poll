@@ -1,0 +1,184 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GlobalProcedures
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x186e7e2a01c0ca72
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADfmY4DMR89Jj98Pxpcp1hZGy3snGgtc5OH6tv4yAUP19EU9kAbuFlNWLMTFDB+BS5/ympgEFQGyNphBJm0PMqoAWWY76n4nOzA4h7oys6ETv9NTHc+J+rr7Gx5UEstg6iZ6bu1Fs6cwLACI3g=
+     code : |1-
+      
+      
+      QuestionType is Structure			// Structure used to manage the questions
+      
+      nPollID is int			// Identifier of the relevant poll
+      sPollCaption is string		// Caption of the poll
+      nQuestionNum is int			// Number of the question
+      sCaption is string				// Caption of the question
+      sAnswerList is string		// List of possible answers
+      nMaxAnswers is int			// Maximum number of answers
+      nMinAnswers is int			// Minimum number of answers
+      nQuestionID is int			// Identifier of the question
+      sAnswer is string				// Caption of the answer (for a radio button) or string containing the answers (for a check box) (Dir1+TAB+Dir2+...)
+      tSelectedAnswers is array fixed of csMaxNbAnswers int // Array containing the subscripts of the selected answers
+      
+      END
+      
+      STAnswerType is Structure
+      	
+      	nQuestionNum is int
+      	sQuestionCaption is string
+      	sListAnswers is string
+      	arrAnswer is array fixed of csMaxNbAnswers int
+      	bAnswers is boolean								// are answers found?
+      	
+      END
+      
+      
+      gsUseFile is string = fExeDir() + fSep + "Use.txt" 
+     type : 720896
+  procedures :
+   -
+     name : FillArrayQuestions
+     procedure_id : 1760483223231646322
+     type_code : 15
+     code : |1-
+      // Summary: Fills the array of questions for a given poll
+      // Syntax:
+      //[ <Result> = ] FillArrayQuestions (<nPollID>, <sPollName>)
+      //
+      // Parameters:
+      //	nPollID: Identifier of the poll
+      //	sPollName: Name of the poll
+      // Return value:
+      // 	array: Array of poll questions
+      
+      PROCEDURE FillArrayQuestions(nPollID, sPollName)
+      
+      arrQuestions is array of QuestionType
+      
+      sAnswerList is string
+      sAnswer is string
+      TheQuestion is QuestionType
+      
+      // Delete the entire table content
+      ArrayDeleteAll(arrQuestions)
+      
+      FOR EACH Question WHERE PollID = nPollID
+      	
+      	// Reset the list of answers
+      	sAnswerList = ""
+      	
+      	//	Update the variable to add to the array
+      	TheQuestion:sPollCaption = sPollName
+      	TheQuestion:sCaption = Question.CaptionQuestions
+      	TheQuestion:sCaption = Question.CaptionQuestions
+      	TheQuestion:nQuestionID = Question.QuestionID
+      	
+      	FOR i = 1 TO csMaxNbAnswers
+      		
+      		sAnswer = {Question..Name + ".Answer" + i, indItem}
+      		
+      		// If the answer differs from "", add it to the list of possible answers
+      		IF sAnswer <> "" THEN
+      			sAnswerList += [CR] + sAnswer 
+      		END	
+      			
+      	END
+      	
+      	TheQuestion:sAnswerList = sAnswerList
+      	TheQuestion:nMaxAnswers = Question.MaxAnswers
+      	TheQuestion:nMinAnswers = Question.MinAnswer
+      	TheQuestion:nQuestionNum = Question.QuestionNum
+      	TheQuestion:nPollID = Question.PollID
+      	
+      	//Initialize the array of selected answers
+      	FOR i = 1 TO csMaxNbAnswers
+      		TheQuestion:tSelectedAnswers[i] = 0
+      	END
+      	
+      	// Add the question into the array	
+      	ArrayAdd(arrQuestions,TheQuestion)
+      	
+      END
+      
+      // Sort the array
+      ArraySort(arrQuestions,asMember,"+nQuestionNum")
+      
+      
+      RESULT arrQuestions
+     type : 458752
+   -
+     name : isTablet
+     procedure_id : 1760483223231711858
+     type_code : 15
+     code : |1+
+      import android.content.res.Configuration;
+      public static boolean isTablet(){
+      	return (getApplicationContext().getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;
+      }
+     language : Java
+     type : 458752
+   -
+     name : GetUse
+     procedure_id : 1760483223231777394
+     type_code : 15
+     code : |1+
+      // Summary: Returns an information about the application use
+      // Syntax:
+      //[ <Result> = ] GetUse ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: Use version 
+      
+      PROCEDURE GetUse()
+      
+      IF fFileExist(gsUseFile) = True THEN
+      	RESULT Val(fLoadText(gsUseFile))
+      ELSE 
+      	RESULT 1 
+      END
+     type : 458752
+   -
+     name : SetUse
+     procedure_id : 1760483223231842930
+     type_code : 15
+     code : |1+
+      // Summary: Stores the use information of the application
+      // Syntax:
+      //SetUse (<nUse> is int)
+      //
+      // Parameters:
+      //	nUse (integer): <specify the role of nUse>
+      // Return value:
+      // 	None
+      //
+      //
+      PROCEDURE SetUse(LOCAL nUse is int)
+      
+      fSaveText(gsUseFile,nUse)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x134e9e5202fa3c99
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

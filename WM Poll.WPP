@@ -1,0 +1,304 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM Poll
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Pocket Poll
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : CAAAAAgAAABI+gAVr+yQsXjQMZXp7fmA/FsmNFofbzsbSg9kYYpVLJWl7yE8YmzZaK5Cie+2/jO2dpqF27Aeh9pnWJr1MKNb27TjWrWxa/N205b0cj7AwPqyhbiCE+Pr38fgOKoCHgjtLM0qyhZ1JceX1gdbgEKYsrfeQO9qC2G35QVafn1Yg8yxWyiZCm7Sn/A/LvyPJa/rP4LRMdKyTrEDe8BROCNeSGXX7mQpF/aXNaFXW/UFInKsLw5i6AJFBsyMXPict2WGHzrBOW+kZijHaKeE2nyi8REWTzpwWTf1KM7KeoqTlKwkauKHrWG3hX723Hcf/O6wMZyFP/r15YT5hYEy6rceRWIADrDiDytfpL+xxxGliLqNAeCxMu0ipcbKjW1Fv8MzxSGPrKtIb8tgeH5XL0f3fa2Yw85XeFtEVRUdUpW+9KsW750Kpl6fh9oHIT0kkXks1jLtAZUKnKmfR0g0jLeOanZo3QThkxRRZg8892YBwXOl1rpJiPZhLg+VuGR7hRnKc8/QgZCpitZZL/B0Q953h/MWzElMhbQAhhp1FXrMJHoav2sDZHUS22NsrC+ekunKiN30sjSHA1QBOobxcUyoItsaxyhvq35L/RtYsx9pNIwAmvVylSn+vwTjn95om0UNjk02NfQEqid/vpxpj98J4x+9NMcLg0DQpLflgknxEs1dWlzGTkC9XlO3TSX44kbZc61BfgIIRf24xLP2OpCzFn/utq3AxR/1eSshTRe0FkQsQXprZ/9vwUVbsNbQL8uYJAvlReHXe2a+IFGcGHcGVm6YgzJ8xv6floSC+wssiK/YNOdKhhXBX4v/CmxGdlauB1cR2XlR0I5ehlckoK7NPkB2EP/42PP1mUyNoAdFiKCOj+x5tq4ZmNRcNVgyr0tXHKl2cE7gGXeK1IZAXuxE+uBSF9GUNANZqkP+gmqi5kIbN76k93iswfJILhgfZ6vDgytchdwSXCjuXRW0+V9klcVXX0kx2NvBab307zDBNp5kyduLZfFt2eAaZbFFATd4TreN8ZjflwwHQbRkDC7BE/oANciuaqcHI9h0GCI1ccQUgfKIhDbJOoFsfOG8T3SH5MjGAbvHKXccIXzex8T1USdahHxG6zbjRP/Us+L5KPn/lljRflybxoxCERS3MPIk2CnZ3ED/vlPxrLLzWKougtU7kczkYbDRfv0dsuq972xwRaX0pwYIRO96jSlcC+ndf9RjQ3liFx5++l5i51Zdz9KDCN3EF2G3BIpcnxzITmmaO/qKXkCzjcTpn4kbfPted+Ud/AuAqxAlfLV5sgGHxCX3TFMLhwKO3O9JWbmfHD4a4r3hTZ38JK9k/svTryHOSc7mE93InGyTa34HVjjbjnOVVORcBx15rlsVaKGDkTAqgQJnOvwB8UjdBMoiH/W3FLZP7sU+bVfJGkHJm6Y/91cQovOQkBj7GppGTf3qIwCvH12J+n6TmTJGKURXPjLscUMajLFQuiKVNbwqjwT2Cox2c6FesIwlZqwtl5ykvppw268bh+GSRLaF3on9c8qsmLLmKqxxTQmbnu1dY411g/nlaQrR83iuEgWEfyYoIVxLxWH7d8jNMuDeEwfiAzTbuO1XeCYzuRhBP2HGnPMzSWJKbMBF6ni0/TvF4tB3SBv73nWMYtcQ56Ig6qlYdb/uqzsZAqWzx4MN7bauespwonTlBqgHW4oK0n4lZpLWiGp205FqEG8+94//yXO3E/wrims+v2Qv3EiYk923hcsB2AfThSc/TsDsGlE1toIckyKsDkSqcZRhs1srT9XaVGs19s+DUSRLTqoGb78X/jwuQrLIFtuNJp9HFBzz+7XJOej5bLQf9bOe6UYaKEMMkiA7m/VGq4+C+68QZPzG2AU8INSDUsqRYGYikE3bPUa+oYz1hr6WLns/rql8azSuM4y7C1/HhvuxqrsFqujaH94Z/27OfIwz+nrKGYm/sXA3yZFHKiuwwCOZVPr1I+g24F0vXAghYtQR2I2XgbYmgXT8Q7rBw+TATH2eonYBHQdv8QucQWhzpg4iw0TcVgHaPvDylxIIlFb1YwlArr1ngSetbEC1V6AV/WLuoOpSywhTXdE3LlpxUe2gXmlIwzAzCu4vQiqrjWdy93cVugEPq8hHFZq/0TTJHiLRpwifsbAW7UVMKzfFevJqLPiPg9CtBTVr/wd1uxF5L9bN8TUFOSIVKgjSfCigzSTl+OD10KlLXqviLI0IpoOsN8Ih6Esmfnt8JSrUCxIHw37xGH8iBSGK26b8h2xYfMR+JFM4T6MdVHAXLGJAxEXQ74nq7wX13lW1AxjZjMIlMHep7Jhw+vT1ex7yhD6TvO+pI2ZU1BFdX8hp9KOKHeUFmZk+QtBYOwjboAUxwSYYjjmMUGxbmdpQ4kcnfEplmDL36bABbBcSy3PsfwXoARYwRpzNdMgT5lPrZnzv2Aj0mZ2YBBfJFmZk+Q4fCvohew+Yom94t/3gUTVQiI23eTyCOhpB7jUJ2KcmI/t824ljCzA2Ae3o4X12iGnSnsHdcZtyTNRr8nFPmk3dSaw1fbmBBuy0kdYjADmd5f8bR6DkdBOT6vwmP/5sREnKiIeAWb4RNiCPBq2/INkkglloeJ4EFtMdNSGWb7CsDcp6fYgv21DMNKOCgq247gLoi250XcGEzGdycGwCV5pt7dh+H41SXvthT2QRnZVXiNf1WieCVay+6i0AhLq0Btq9LqHINgzAuelijv6vMOUjXbCp+kJXR2sRQJoTAy0uVxIlwK7Fb6o5C10MlarhBe14+zVnexuS/WsCuXK/vFDnNZE9hElte7nA4xnkcVk3eHoTnv4RMzIt+2YM/vXw+RoaRQxK8IfRzAKSQJOoJZu6Ax5lupRyojykBTqVOAgmDwcxPF357f+gSBddYw1spQFRxQ6INNvS7i6CG7TAuZANo7zkgZIfpvDTghFwc+hi+jwz/qFzl4ys5U4CGjYKuqUlZGMwTKxlz3431sH/WA+oDSblMc5sU26gRu1EH47Y5mliTR0ghkeL01LQGc5G3EW1SYi9WMW2qJvuyv3eMR3+wOsqOf3CUTfAwzIgllsaEjBHPVDaPb8AjO8uRiddhuv56gh5Ha+DneNQyel1Yx9QpO2wrnTGNLmkBYBx0lIuP35nosM84j0rq+C5jEhwCuOMWH8dN6+1KX40g1vKD0EewmWyCRjn4ma5ykE4Xd63tIEKrXnv72Hrhw+dGJzarIJ9QoU9w3CjS+SA+9+Gd8e4OhDdsNVeidri+fZ0CQALoNX+weKswqzSbq2I0WxWeCAQ/7DE2D9iKJrefUMFRH+2yuKGuVwZnPqYEQXdPvTZFpVQB1M8kI9/NeDPAL+Xc1Ukx38NvxTCjLU0I9MM26dZdawFMouaFS7NpKD7/L6mp1TKeZm8cuAy/FcltAFY+o+FDnWaYo5ZgYHl3OAvEiTaAAcxpsY1JJjK5yaV5twF2s0CzQveLMsA4G85thbxVXOvBExHcbRGVLGhgE86ufNlD0zNwJnDiryQGUuqn92QZTMx6EbLt9FiDIhuibwIcrynulp/WS2mCBqfsnJqI9NpdSwWj2UbmouCSQ97iARp1rV6VYcsIoYpnf3Fnhjns8vGMEWrfallidDkJxiWkXd/WdBOwZxAp7j7yPjKq+thugDgm9eOdAzODIht6kosDliHYmJAaLZEJA3km9l627+usmpqRx0eCbhECY+7LOX2Vx9QD8KDD4fHWSKTFm9tdRkkyTP1Q8IOrgeUQ5zSn14qzpe0u9PKfYlIWxInSPgzqOiol4M16VeKos0rfhEKtB+UmSPELApQVrVlBKq6N1HCvL8R/tgdxB1Mqe/w8WjJqsf36qrfJxAgvqlFNnHCvCMDTGXkjIiOTuXbeloCkViWmMuG7/iujZOET3t5UosXaByG5YpjG/2vHQc6l37vFyCBLthPgd9qoFeeJdb3mG2RebVWp/+TujSomY1pBj6ICdD411urhwp/gTufDvKZ4T7aa5FSoixRb1yMj2hFkAvqkIFrlKso9zVnvLE7uO7wFd+OnUdGoFZLQ9Wyp3rgIroR+oJCpi3G7OMgr1DODesScqO0V+teUV1E8yBVArQVrgB+we9oumlSov7CfSSnu6bTmOByqgYS3o+XjoJbFG1p8Q13jvciMce8/bRNnhoBstdF3IzquM5PtEbHOATkJjny2/uZA5YfuwqRQBDeyeE+SaGXdgz8nwHMM6o97usQCfjgdrC7R3kMajD08daqqMrhtMzGdgr12YlZpB6mh3x+9G1aA5kBUF2nToIqJxqMldKHsvxc1kaKonI0wSiKEDzcuh1IlIFiahysJxTnTJy1K02cg3ieMd0OIJc1TXpBQXYYQxzg3sKzUEgd0gMaDJPYETFIAVggkptSQePehq7qvpNqhx40E3/1froDaGOctffKgOf7dPN/nPoUv9NOfJImH6AG3rtNeaYYd8bXRItY9DSx2/zfqhMorOAwNbNDdFD/9qJFZd2eTGZjwOmgnjjEiY+XSWwfedQwZSPATyM399YKx6aIclM4zIhTsCt73KXgb4Fu3CRTKcEu8zYOHDdv6yio6d6/jOTWsFUzS3VwamxRHm1/dc8jsGtEGg2rt4HMwujsFt1nuXeVlOvTz2XRErZvJSIzPYb5BJ8hQCo36ToLnK81RM1QGYgjtOsbZEgm3EKH9yH0di/JNv9R0Yp4FfAp4Jh6uFf0W7ri6afpTZZXluZ5I2EWvLVn663qP8M=
+    configuration_id : 14169557970236480779
+    type : 15
+    generation_directory : .\Exe\Android Application
+    version : {}
+    language : 2
+    telemetry :
+     status : disabled
+  -
+    name : iOS application
+    internal_properties : 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
+    configuration_id : 2793780398956583672
+    type : 18
+    generation_directory : .\Exe\iOS Application
+    version : {}
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4a685f89001f9d53
+  elements :
+   -
+     name : QRY_PollsWithDetails
+     identifier : 0x4fa2908b001f69a0
+     internal_properties : CAAAAAgAAADBvTltWgcvwIV/OICQpihnBSJYGDMWwTSKnGPQs/Uh7wk74CjsHJ8U5lJMtHx0DPzETA==
+     physical_name : .\QRY_PollsWithDetails.WDR
+     type : 5
+   -
+     name : WIN_Polls_Tablet
+     identifier : 0x4f1fea8b0117e172
+     internal_properties : CAAAAAgAAAAQ7khUUwggO5J40Vn58AfCXA1LE7XIh9VyIoMIBAsBBwkJMEjDRcY931tFs3NtFYt1/Q==
+     physical_name : .\WIN_Polls_Tablet.wpw
+     type : 2
+   -
+     name : IW_AnswerToPoll
+     identifier : 0x40c606c701f1b514
+     internal_properties : CAAAAAgAAACc+vQgn8Rsf8asFZ2Nph9iUO3/p474brWugzWJ3yFznVv3yi7vEYoBk48J978xyT+JiQ==
+     physical_name : .\IW_AnswerToPoll.wdw
+     type : 8
+   -
+     name : WIN_Menu
+     identifier : 0x493d3d0c00006f1d
+     internal_properties : CAAAAAgAAABt6UVZZtNbBCnDvARkD0j36bjgaGkWXHeKuHd35jpYkLi4Z4GYqCOYeqYQ6KhYIJB4+A==
+     physical_name : .\WIN_Menu.wpw
+     type : 2
+   -
+     name : WIN_POPUP_OPEN
+     identifier : 0x40bcb1ea00231aa6
+     internal_properties : CAAAAAgAAABUMrz4x7z091407dVVYfMOUNOv58QcTNG2EQvmUMDcNMBuj+kn2VJJKxeBfwf5gXdBwQ==
+     physical_name : .\WIN_POPUP_OPEN.wpw
+     type : 2
+   -
+     name : WIN_POPUP_SAVE
+     identifier : 0x40bcb9b900e99bc7
+     internal_properties : CAAAAAgAAAAFAW2xjiuDnKFLNLzsieSDiTRAUGWVMrlOKw20BDxW+h7CffsQMKsg8i6oEJBAOKgQEA==
+     physical_name : .\WIN_POPUP_SAVE.wpw
+     type : 2
+   -
+     name : IW_Menu
+     identifier : 0x42728c9e00f688ad
+     internal_properties : CAAAAAgAAABm7E5SUQ4myey2Y0/f3Rmg+omxWWwQBTGO30p6Fhx4UPgaJ0HdY9jPrWlTrXVrF4lz8w==
+     physical_name : .\IW_Menu.wdw
+     type : 8
+   -
+     name : WIN_SAVEMENU
+     identifier : 0x427cf23b02046ac8
+     internal_properties : CAAAAAgAAAAtKQUZppObRGkDL4AMCV6in/L+NnVLnEWCHj788AII+Mwg5nSRccpYOubQKOgY4NA4OA==
+     physical_name : .\WIN_SAVEMENU.wpw
+     type : 2
+   -
+     name : WIN_PollForm
+     identifier : 0x434e4673025bf8fe
+     internal_properties : CAAAAAgAAADfuzfr2IWtvgjZceIYTM7yoRwIKKDXCo+3sruLo3CiDurGOr6aoIM/adDKNv7yjgLKSg==
+     physical_name : .\WIN_PollForm.wpw
+     type : 2
+   -
+     name : COL_GlobalProcedures
+     identifier : 0x434e9e5b05045dcf
+     internal_properties : CAAAAAgAAACIhvCsG0Do8/+MvI2+gM5GBndtpYPaeH9IyogWylk71T+nKCXSKxCynIN9ezu1TUONlQ==
+     physical_name : .\COL_GlobalProcedures.wdg
+     type : 7
+   -
+     name : QRY_Result
+     identifier : 0x4f200923020860d1
+     internal_properties : CAAAAAgAAACoppCMO2BIU2oAifGhVpPW5PGDa/pF2IiCfuGSfzlTpVuXSr5b7W5lN+Pd21uVbWOttQ==
+     physical_name : .\QRY_Result.WDR
+     type : 5
+     public : false
+  other_elements :
+   -
+     physical_name : .\Exe\Android Application\Answers.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 14169557970236480779
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 2793780398956583672
+        excluded : true
+   -
+     physical_name : .\Exe\Android Application\Answers.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 14169557970236480779
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 2793780398956583672
+        excluded : true
+   -
+     physical_name : .\Exe\Android Application\Poll.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 14169557970236480779
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 2793780398956583672
+        excluded : true
+   -
+     physical_name : .\Exe\Android Application\Poll.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 14169557970236480779
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 2793780398956583672
+        excluded : true
+   -
+     physical_name : .\Exe\Android Application\Question.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 14169557970236480779
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 2793780398956583672
+        excluded : true
+   -
+     physical_name : .\Exe\Android Application\Question.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 14169557970236480779
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 2793780398956583672
+        excluded : true
+   -
+     physical_name : .\Exe\iOS Application\Answers.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 14169557970236480779
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 2793780398956583672
+   -
+     physical_name : .\Exe\iOS Application\Answers.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 14169557970236480779
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 2793780398956583672
+   -
+     physical_name : .\Exe\iOS Application\Poll.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 14169557970236480779
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 2793780398956583672
+   -
+     physical_name : .\Exe\iOS Application\Poll.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 14169557970236480779
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 2793780398956583672
+   -
+     physical_name : .\Exe\iOS Application\Question.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 14169557970236480779
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 2793780398956583672
+   -
+     physical_name : .\Exe\iOS Application\Question.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 14169557970236480779
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 2793780398956583672
+  analysis : .\WM Poll.ana\WM Poll.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ wb_style_sheet : .\Pocket Poll.wws
+ code_elements :
+  internal_properties : CAAAAAgAAAAVDCmRBkqJMPv8NCkyroP3SvstReh/1VVeTWVoeKqyBcmt+0fXrAwURJ71Xdnh6s4uco0r2vlNQvwN5Pe++EI=
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      
+      CONSTANT
+      	
+      	csView = 1							// Opening mode for the plane of Polls (in viewing)
+      	csAnswer = 2						// Opening mode for the plane of Polls (in edit)
+      	
+      	csMaxNbAnswers = 5					// Maximum number of answers
+      	
+      	CST_MODIFYPOLL = 1
+      	CST_CREEATEPOLL = 2 
+      	CST_OPEN = 3
+      	CST_CONSULTPOLL = 4
+      	CST_DELETEPOLL = 5
+      	CST_CARRYOUTPOLL = 6
+      	
+      	CST_CREATEQUESTION = 4 
+      	CST_MODIFYQUESTION = 5
+      	
+      	CST_ADD_POLL_QUESTION = 6 
+      	CST_END_POLL_CREATION = 7
+      	
+      END
+      
+      //Manages the need to re-run the query of polls with details
+      gbModifiedPoll is boolean = False
+      
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x434e8df7041357f4
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS application
+     identifier : 0x4f1edea700469c57
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
